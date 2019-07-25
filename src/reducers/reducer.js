@@ -25,7 +25,7 @@ const initial = {
                     ...state,
                     car: {
                         ...state.car,
-                        features: [...state.care.features, action.payload]
+                        features: [...state.car.features, action.payload]
                     }
                 }
           }
